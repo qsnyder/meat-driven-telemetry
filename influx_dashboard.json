@@ -1,0 +1,2130 @@
+{
+  "meta": {
+   "version": "1",
+   "type": "dashboard",
+   "name": "Fireboard-Template",
+   "description": "template created from dashboard: Fireboard"
+  },
+  "content": {
+   "data": {
+    "type": "dashboard",
+    "attributes": {
+     "name": "Fireboard",
+     "description": "Display real-time temperature data collected from the Fireboard API"
+    },
+    "relationships": {
+     "label": {
+      "data": [
+       {
+        "type": "label",
+        "id": "07f09b6554f93000"
+       }
+      ]
+     },
+     "cell": {
+      "data": [
+       {
+        "type": "cell",
+        "id": "07f09b6556daa001"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa002"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa003"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa004"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa005"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa006"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa007"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa008"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b6556daa009"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b65571aa000"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b65571aa001"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b65571aa002"
+       },
+       {
+        "type": "cell",
+        "id": "07f09b65571aa003"
+       },
+       {
+        "type": "cell",
+        "id": "07f0d380805aa000"
+       },
+       {
+        "type": "cell",
+        "id": "07f0d3f6ae1aa000"
+       },
+       {
+        "type": "cell",
+        "id": "07f1c20a8f1aa000"
+       },
+       {
+        "type": "cell",
+        "id": "07f1c57d009aa000"
+       }
+      ]
+     },
+     "variable": {
+      "data": [
+       {
+        "type": "variable",
+        "id": "07f09b65550f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65554f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65558f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b6555cf4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b6555cf4001"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65560f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65564f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65564f4001"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65584f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65584f4001"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65588f4000"
+       },
+       {
+        "type": "variable",
+        "id": "07f09b65588f4001"
+       }
+      ]
+     }
+    }
+   },
+   "included": [
+    {
+     "type": "label",
+     "id": "07f09b6554f93000",
+     "attributes": {
+      "name": "Fireboard",
+      "properties": {
+       "color": "#E85B1C",
+       "description": ""
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa001",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 6
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa001"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa002",
+     "type": "cell",
+     "attributes": {
+      "x": 8,
+      "y": 0,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa002"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa003",
+     "type": "cell",
+     "attributes": {
+      "x": 8,
+      "y": 1,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa003"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa004",
+     "type": "cell",
+     "attributes": {
+      "x": 8,
+      "y": 2,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa004"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa005",
+     "type": "cell",
+     "attributes": {
+      "x": 8,
+      "y": 3,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa005"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa006",
+     "type": "cell",
+     "attributes": {
+      "x": 8,
+      "y": 4,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa006"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa007",
+     "type": "cell",
+     "attributes": {
+      "x": 8,
+      "y": 5,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa007"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa008",
+     "type": "cell",
+     "attributes": {
+      "x": 10,
+      "y": 0,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa008"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b6556daa009",
+     "type": "cell",
+     "attributes": {
+      "x": 10,
+      "y": 1,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b6556daa009"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b65571aa000",
+     "type": "cell",
+     "attributes": {
+      "x": 10,
+      "y": 2,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b65571aa000"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b65571aa001",
+     "type": "cell",
+     "attributes": {
+      "x": 10,
+      "y": 3,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b65571aa001"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b65571aa002",
+     "type": "cell",
+     "attributes": {
+      "x": 10,
+      "y": 4,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b65571aa002"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f09b65571aa003",
+     "type": "cell",
+     "attributes": {
+      "x": 10,
+      "y": 5,
+      "w": 2,
+      "h": 1
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f09b65571aa003"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f0d380805aa000",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 9,
+      "w": 5,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f0d380805aa000"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f0d3f6ae1aa000",
+     "type": "cell",
+     "attributes": {
+      "x": 5,
+      "y": 9,
+      "w": 5,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f0d3f6ae1aa000"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f1c20a8f1aa000",
+     "type": "cell",
+     "attributes": {
+      "x": 0,
+      "y": 6,
+      "w": 5,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f1c20a8f1aa000"
+       }
+      }
+     }
+    },
+    {
+     "id": "07f1c57d009aa000",
+     "type": "cell",
+     "attributes": {
+      "x": 5,
+      "y": 6,
+      "w": 5,
+      "h": 3
+     },
+     "relationships": {
+      "view": {
+       "data": {
+        "type": "view",
+        "id": "07f1c57d009aa000"
+       }
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa001",
+     "attributes": {
+      "name": "Overview",
+      "properties": {
+       "shape": "chronograf-v2",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "axes": {
+        "x": {
+         "bounds": [],
+         "label": "",
+         "prefix": "",
+         "suffix": "",
+         "base": "10",
+         "scale": "linear"
+        },
+        "y": {
+         "bounds": [],
+         "label": "",
+         "prefix": "",
+         "suffix": "Â°F",
+         "base": "10",
+         "scale": "linear"
+        }
+       },
+       "type": "xy",
+       "legend": {},
+       "geom": "line",
+       "colors": [
+        {
+         "id": "",
+         "type": "scale",
+         "hex": "#8F8AF4",
+         "name": "Do Androids Dream of Electric Sheep?",
+         "value": 0
+        },
+        {
+         "id": "",
+         "type": "scale",
+         "hex": "#A51414",
+         "name": "Do Androids Dream of Electric Sheep?",
+         "value": 0
+        },
+        {
+         "id": "",
+         "type": "scale",
+         "hex": "#F4CF31",
+         "name": "Do Androids Dream of Electric Sheep?",
+         "value": 0
+        }
+       ],
+       "note": "",
+       "showNoteWhenEmpty": false,
+       "xColumn": "_time",
+       "generateXAxisTicks": null,
+       "xTotalTicks": 0,
+       "xTickStart": 0,
+       "xTickStep": 0,
+       "yColumn": "_value",
+       "generateYAxisTicks": null,
+       "yTotalTicks": 0,
+       "yTickStart": 0,
+       "yTickStep": 0,
+       "shadeBelow": true,
+       "position": "overlaid",
+       "timeFormat": "",
+       "hoverDimension": "",
+       "legendColorizeRows": false,
+       "legendOpacity": 0,
+       "legendOrientationThreshold": 0
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa002",
+     "attributes": {
+      "name": "Probe 1",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"1\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "Â°",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "",
+         "type": "background",
+         "hex": "#22ADF6",
+         "name": "pool",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa003",
+     "attributes": {
+      "name": "Probe 2",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"2\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "Â°",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "background",
+         "hex": "#DC4E58",
+         "name": "fire",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa004",
+     "attributes": {
+      "name": "Probe 3",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"3\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "Â°",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "background",
+         "hex": "#F48D38",
+         "name": "tiger",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa005",
+     "attributes": {
+      "name": "Probe 4",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"4\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "Â°",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "background",
+         "hex": "#FFB94A",
+         "name": "pineapple",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa006",
+     "attributes": {
+      "name": "Probe 5",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"5\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "Â°",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "background",
+         "hex": "#FFD255",
+         "name": "thunder",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa007",
+     "attributes": {
+      "name": "Probe 6",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "from(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"6\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "Â°",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "background",
+         "hex": "#7CE490",
+         "name": "honeydew",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa008",
+     "attributes": {
+      "name": "Probe 1 Status",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "import \"experimental\"\n\ntype = v.probe1_type\ntarget = float(v: v.probe1_target)\n\naddStatus = (tables=<-) =>\n  tables\n    |> map(fn: (r) => ({ r with\n      _value: if r.scale == \"Celsius\" then (r._value * (9.0/5.0)) + 32.0 else r._value,\n      status: if r._value >= target then \"Done\" else \"\"\n    }))\n    |> difference()\n    |> experimental.group(columns: [\"status\"], mode: \"extend\")\n    |> aggregateWindow(every: 5m, fn: mean)\n    |> group(columns: [\"_time\", \"_value\", \"status\"], mode: \"except\")\n    |> fill(usePrevious: true)\n    |> map(fn: (r) => ({ r with\n      _value: \n        if type == \"Ambient\" then \"--\"\n        else if r.status == \"Done\" then \"Done\"\n        else if r._value < 0.0 then \"Cooling\"\n        else if r._value <= 0.02 then \"Stalling\"\n        else \"Cooking\"\n    }))\n\nfrom(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"1\")\n  |> addStatus()\n  |> last()",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "",
+         "type": "text",
+         "hex": "#22ADF6",
+         "name": "pool",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b6556daa009",
+     "attributes": {
+      "name": "Probe 2 Status",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "import \"experimental\"\n\ntype = v.probe2_type\ntarget = float(v: v.probe2_target)\n\naddStatus = (tables=<-) =>\n  tables\n    |> map(fn: (r) => ({ r with\n      _value: if r.scale == \"Celsius\" then (r._value * (9.0/5.0)) + 32.0 else r._value,\n      status: if r._value >= target then \"Done\" else \"\"\n    }))\n    |> difference()\n    |> experimental.group(columns: [\"status\"], mode: \"extend\")\n    |> aggregateWindow(every: 5m, fn: mean)\n    |> group(columns: [\"_time\", \"_value\", \"status\"], mode: \"except\")\n    |> fill(usePrevious: true)\n    |> map(fn: (r) => ({ r with\n      _value: \n        if type == \"Ambient\" then \"--\"\n        else if r.status == \"Done\" then \"Done\"\n        else if r._value < 0.0 then \"Cooling\"\n        else if r._value <= 0.02 then \"Stalling\"\n        else \"Cooking\"\n    }))\n\nfrom(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"2\")\n  |> addStatus()\n  |> last()",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "text",
+         "hex": "#F95F53",
+         "name": "curacao",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b65571aa000",
+     "attributes": {
+      "name": "Probe 3 Status",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "import \"experimental\"\n\ntype = v.probe3_type\ntarget = float(v: v.probe3_target)\n\naddStatus = (tables=<-) =>\n  tables\n    |> map(fn: (r) => ({ r with\n      _value: if r.scale == \"Celsius\" then (r._value * (9.0/5.0)) + 32.0 else r._value,\n      status: if r._value >= target then \"Done\" else \"\"\n    }))\n    |> difference()\n    |> experimental.group(columns: [\"status\"], mode: \"extend\")\n    |> aggregateWindow(every: 5m, fn: mean)\n    |> group(columns: [\"_time\", \"_value\", \"status\"], mode: \"except\")\n    |> fill(usePrevious: true)\n    |> map(fn: (r) => ({ r with\n      _value: \n        if type == \"Ambient\" then \"--\"\n        else if r.status == \"Done\" then \"Done\"\n        else if r._value < 0.0 then \"Cooling\"\n        else if r._value <= 0.02 then \"Stalling\"\n        else \"Cooking\"\n    }))\n\nfrom(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"3\")\n  |> addStatus()\n  |> last()",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "text",
+         "hex": "#F48D38",
+         "name": "tiger",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b65571aa001",
+     "attributes": {
+      "name": "Probe 4 Status",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "import \"experimental\"\n\ntype = v.probe4_type\ntarget = float(v: v.probe4_target)\n\naddStatus = (tables=<-) =>\n  tables\n    |> map(fn: (r) => ({ r with\n      _value: if r.scale == \"Celsius\" then (r._value * (9.0/5.0)) + 32.0 else r._value,\n      status: if r._value >= target then \"Done\" else \"\"\n    }))\n    |> difference()\n    |> experimental.group(columns: [\"status\"], mode: \"extend\")\n    |> aggregateWindow(every: 5m, fn: mean)\n    |> group(columns: [\"_time\", \"_value\", \"status\"], mode: \"except\")\n    |> fill(usePrevious: true)\n    |> map(fn: (r) => ({ r with\n      _value: \n        if type == \"Ambient\" then \"--\"\n        else if r.status == \"Done\" then \"Done\"\n        else if r._value < 0.0 then \"Cooling\"\n        else if r._value <= 0.002 then \"Stalling\"\n        else \"Cooking\"\n    }))\n\nfrom(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"4\")\n  |> addStatus()\n  |> last()",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "text",
+         "hex": "#FFB94A",
+         "name": "pineapple",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b65571aa002",
+     "attributes": {
+      "name": "Probe 5 Status",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "import \"experimental\"\n\ntype = v.probe5_type\ntarget = float(v: v.probe5_target)\n\naddStatus = (tables=<-) =>\n  tables\n    |> map(fn: (r) => ({ r with\n      _value: if r.scale == \"Celsius\" then (r._value * (9.0/5.0)) + 32.0 else r._value,\n      status: if r._value >= target then \"Done\" else \"\"\n    }))\n    |> difference()\n    |> experimental.group(columns: [\"status\"], mode: \"extend\")\n    |> aggregateWindow(every: 5m, fn: mean)\n    |> group(columns: [\"_time\", \"_value\", \"status\"], mode: \"except\")\n    |> fill(usePrevious: true)\n    |> map(fn: (r) => ({ r with\n      _value: \n        if type == \"Ambient\" then \"--\"\n        else if r.status == \"Done\" then \"Done\"\n        else if r._value < 0.0 then \"Cooling\"\n        else if r._value <= 0.02 then \"Stalling\"\n        else \"Cooking\"\n    }))\n\nfrom(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"5\")\n  |> addStatus()\n  |> last()",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "text",
+         "hex": "#FFD255",
+         "name": "thunder",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f09b65571aa003",
+     "attributes": {
+      "name": "Probe 6 Status",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "single-stat",
+       "queries": [
+        {
+         "text": "import \"experimental\"\n\ntype = v.probe6_type\ntarget = float(v: v.probe6_target)\n\naddStatus = (tables=<-) =>\n  tables\n    |> map(fn: (r) => ({ r with\n      _value: if r.scale == \"Celsius\" then (r._value * (9.0/5.0)) + 32.0 else r._value,\n      status: if r._value >= target then \"Done\" else \"\"\n    }))\n    |> difference()\n    |> experimental.group(columns: [\"status\"], mode: \"extend\")\n    |> aggregateWindow(every: 5m, fn: mean)\n    |> group(columns: [\"_time\", \"_value\", \"status\"], mode: \"except\")\n    |> fill(usePrevious: true)\n    |> map(fn: (r) => ({ r with\n      _value: \n        if type == \"Ambient\" then \"--\"\n        else if r.status == \"Done\" then \"Done\"\n        else if r._value < 0.0 then \"Cooling\"\n        else if r._value <= 0.02 then \"Stalling\"\n        else \"Cooking\"\n    }))\n\nfrom(bucket: \"fireboard\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"fireboard\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n  |> filter(fn: (r) => r[\"channel\"] == \"6\")\n  |> addStatus()\n  |> last()",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "base",
+         "type": "text",
+         "hex": "#7CE490",
+         "name": "honeydew",
+         "value": 0
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f0d380805aa000",
+     "attributes": {
+      "name": "Outside Temperature (OWM)",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "gauge",
+       "queries": [
+        {
+         "text": "from(bucket: \"openweather\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"openweathermap\")\n  |> filter(fn: (r) => r[\"_field\"] == \"main_temp\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "F",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "0",
+         "type": "min",
+         "hex": "#00C9FF",
+         "name": "laser",
+         "value": 40
+        },
+        {
+         "id": "1",
+         "type": "max",
+         "hex": "#BF3D5E",
+         "name": "ruby",
+         "value": 130
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 0
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f0d3f6ae1aa000",
+     "attributes": {
+      "name": "Relative Humidity (OWM)",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "gauge",
+       "queries": [
+        {
+         "text": "from(bucket: \"openweather\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"openweathermap\")\n  |> filter(fn: (r) => r[\"_field\"] == \"main_humidity\")\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "%RH",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "0",
+         "type": "min",
+         "hex": "#FFD255",
+         "name": "thunder",
+         "value": 0
+        },
+        {
+         "id": "1",
+         "type": "max",
+         "hex": "#32B08C",
+         "name": "viridian",
+         "value": 100
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 0
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f1c20a8f1aa000",
+     "attributes": {
+      "name": "Temp (KCHD)",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "gauge",
+       "queries": [
+        {
+         "text": "from(bucket: \"weathergov\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"weathergov\")\n  |> filter(fn: (r) => r[\"_field\"] == \"properties_temperature_value\")\n  |> map(fn: (r) => ({\n      r with\n      _value: (r._value * 9.0/5.0) + 32.0\n      })\n   )\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "0",
+         "type": "min",
+         "hex": "#00C9FF",
+         "name": "laser",
+         "value": 30
+        },
+        {
+         "id": "1",
+         "type": "max",
+         "hex": "#BF3D5E",
+         "name": "ruby",
+         "value": 130
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "type": "view",
+     "id": "07f1c57d009aa000",
+     "attributes": {
+      "name": "Dew Point [F] (KCHD)",
+      "properties": {
+       "shape": "chronograf-v2",
+       "type": "gauge",
+       "queries": [
+        {
+         "text": "from(bucket: \"weathergov\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"weathergov\")\n  |> filter(fn: (r) => r[\"_field\"] == \"properties_dewpoint_value\")\n    |> map(fn: (r) => ({\n      r with\n      _value: (r._value * 9.0/5.0) + 32.0\n      })\n   )\n  |> aggregateWindow(every: v.windowPeriod, fn: mean, createEmpty: false)\n  |> yield(name: \"mean\")",
+         "editMode": "advanced",
+         "name": "",
+         "builderConfig": {
+          "buckets": [],
+          "tags": [
+           {
+            "key": "_measurement",
+            "values": [],
+            "aggregateFunctionType": "filter"
+           }
+          ],
+          "functions": [
+           {
+            "name": "mean"
+           }
+          ],
+          "aggregateWindow": {
+           "period": "auto",
+           "fillValues": false
+          }
+         }
+        }
+       ],
+       "prefix": "",
+       "tickPrefix": "",
+       "suffix": "",
+       "tickSuffix": "",
+       "colors": [
+        {
+         "id": "0",
+         "type": "min",
+         "hex": "#FFD255",
+         "name": "thunder",
+         "value": 0
+        },
+        {
+         "id": "1",
+         "type": "max",
+         "hex": "#32B08C",
+         "name": "viridian",
+         "value": 100
+        }
+       ],
+       "decimalPlaces": {
+        "isEnforced": true,
+        "digits": 2
+       },
+       "note": "",
+       "showNoteWhenEmpty": false
+      }
+     }
+    },
+    {
+     "id": "07f09b65550f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe6_target",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105",
+        "110",
+        "115",
+        "120",
+        "125",
+        "130",
+        "135",
+        "140",
+        "145",
+        "150",
+        "155",
+        "160",
+        "165",
+        "170",
+        "175",
+        "180",
+        "185",
+        "190",
+        "195",
+        "200",
+        "205",
+        "210",
+        "215",
+        "220",
+        "225",
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255",
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290",
+        "295",
+        "300"
+       ]
+      },
+      "selected": [
+       "200"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65554f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe4_type",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "Ambient",
+        "Food"
+       ]
+      },
+      "selected": [
+       "Food"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65558f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe2_type",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "Ambient",
+        "Food"
+       ]
+      },
+      "selected": [
+       "Food"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b6555cf4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe3_target",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105",
+        "110",
+        "115",
+        "120",
+        "125",
+        "130",
+        "135",
+        "140",
+        "145",
+        "150",
+        "155",
+        "160",
+        "165",
+        "170",
+        "175",
+        "180",
+        "185",
+        "190",
+        "195",
+        "200",
+        "205",
+        "210",
+        "215",
+        "220",
+        "225",
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255",
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290",
+        "295",
+        "300"
+       ]
+      },
+      "selected": [
+       "200"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b6555cf4001",
+     "type": "variable",
+     "attributes": {
+      "name": "probe1_target",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105",
+        "110",
+        "115",
+        "120",
+        "125",
+        "130",
+        "135",
+        "140",
+        "145",
+        "150",
+        "155",
+        "160",
+        "165",
+        "170",
+        "175",
+        "180",
+        "185",
+        "190",
+        "195",
+        "200",
+        "205",
+        "210",
+        "215",
+        "220",
+        "225",
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255",
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290",
+        "295",
+        "300"
+       ]
+      },
+      "selected": [
+       "200"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65560f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe5_type",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "Ambient",
+        "Food"
+       ]
+      },
+      "selected": [
+       "Food"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65564f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe4_target",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105",
+        "110",
+        "115",
+        "120",
+        "125",
+        "130",
+        "135",
+        "140",
+        "145",
+        "150",
+        "155",
+        "160",
+        "165",
+        "170",
+        "175",
+        "180",
+        "185",
+        "190",
+        "195",
+        "200",
+        "205",
+        "210",
+        "215",
+        "220",
+        "225",
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255",
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290",
+        "295",
+        "300"
+       ]
+      },
+      "selected": [
+       "200"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65564f4001",
+     "type": "variable",
+     "attributes": {
+      "name": "probe2_target",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105",
+        "110",
+        "115",
+        "120",
+        "125",
+        "130",
+        "135",
+        "140",
+        "145",
+        "150",
+        "155",
+        "160",
+        "165",
+        "170",
+        "175",
+        "180",
+        "185",
+        "190",
+        "195",
+        "200",
+        "205",
+        "210",
+        "215",
+        "220",
+        "225",
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255",
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290",
+        "295",
+        "300"
+       ]
+      },
+      "selected": [
+       "200"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65584f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe3_type",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "Ambient",
+        "Food"
+       ]
+      },
+      "selected": [
+       "Food"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65584f4001",
+     "type": "variable",
+     "attributes": {
+      "name": "probe1_type",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "Ambient",
+        "Food"
+       ]
+      },
+      "selected": [
+       "Ambient"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65588f4000",
+     "type": "variable",
+     "attributes": {
+      "name": "probe6_type",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "Ambient",
+        "Food"
+       ]
+      },
+      "selected": [
+       "Food"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    },
+    {
+     "id": "07f09b65588f4001",
+     "type": "variable",
+     "attributes": {
+      "name": "probe5_target",
+      "arguments": {
+       "type": "constant",
+       "values": [
+        "35",
+        "40",
+        "45",
+        "50",
+        "55",
+        "60",
+        "65",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "95",
+        "100",
+        "105",
+        "110",
+        "115",
+        "120",
+        "125",
+        "130",
+        "135",
+        "140",
+        "145",
+        "150",
+        "155",
+        "160",
+        "165",
+        "170",
+        "175",
+        "180",
+        "185",
+        "190",
+        "195",
+        "200",
+        "205",
+        "210",
+        "215",
+        "220",
+        "225",
+        "230",
+        "235",
+        "240",
+        "245",
+        "250",
+        "255",
+        "260",
+        "265",
+        "270",
+        "275",
+        "280",
+        "285",
+        "290",
+        "295",
+        "300"
+       ]
+      },
+      "selected": [
+       "200"
+      ]
+     },
+     "relationships": {
+      "label": {
+       "data": [
+        {
+         "type": "label",
+         "id": "07f09b6554f93000"
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "labels": []
+ }
